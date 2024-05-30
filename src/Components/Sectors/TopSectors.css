@@ -1,0 +1,9 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.topsectors{
+    margin-left: 50px;
+}
+
+.topsectorchart{
+    width: 400px !important;
+}

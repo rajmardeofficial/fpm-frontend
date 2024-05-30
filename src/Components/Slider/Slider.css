@@ -1,0 +1,26 @@
+.slider ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: calc(100% - 60px);
+    margin-top: 10px;
+}
+
+ul .list-item{
+    list-style: none;
+    color: grey;
+}
+
+.slider hr{
+    color: rgb(208, 208, 208);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border: 0.5px solid;
+}
+
+.slider .list-item.active {
+    font-weight: bold;
+    color: black;
+  }
+  

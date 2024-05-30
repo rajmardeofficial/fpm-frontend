@@ -1,0 +1,13 @@
+/* BarChart.css */
+.small-canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes up the full height of its parent */
+  }
+  
+  .small-canvas {
+    width: 1200px !important;
+    height: 600px !important;
+  }
+  

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.recommendation {
+    margin: 40px 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.recommendation-cards {
+    width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.recommendation-cards ul {
+    color: white;
+    display: block;
+}
+
+.recommendation-cards ul li {
+    /* list-style: none; */
+    margin-top: 10px;
+}
+
+.recommendation-cards ul li::marker {
+    color: white; /* Change bullet color */
+}
+
+.card-title,
+.card-subtitle {
+    color: white;
+}

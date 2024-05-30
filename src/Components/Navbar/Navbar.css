@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0; /* Margin from both left and right sides */
+    padding: 10px 10px;
+    align-items: center;
+    background: linear-gradient(to right, cyan, yellow);
+}
+
+.navbar-items ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px; /* Utilize full width */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.item{
+    text-decoration: none;
+    list-style: none;
+}
+
+.profile{
+    border-radius: 100px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, cyan, purple, yellow); 
+}
+
+.profile-inside{
+    background-color: white;
+    border-radius: 100px;
+    margin: 3px;
+}
+
+.profile .userIcon{
+    font-size: 30px;
+    margin: 10px;
+}
